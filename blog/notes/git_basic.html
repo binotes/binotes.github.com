@@ -16,6 +16,19 @@
 </p>
 
 <p>
+cd ~
+mkdir .ssh
+ssh-keygen -t rsa -C "binotes@163.com"
+add pub.key to github
+test private.key by:
+ssh -T git@github.com
+</p>
+
+<p>
+git push git@github.com:binotes/binotes.github.com.git
+</p>
+
+<p>
 <a href="http://www.bootcss.com/#">http://www.bootcss.com/#</a>
 </p>
 
@@ -77,7 +90,7 @@ git clone <a href="https://github.com/username/projectname.git">https://github.c
 </p>
 
 
-<ul>
+<ol>
 <li>
 git push 失败的解决方法
 
@@ -86,27 +99,22 @@ git push 失败的解决方法
 问题（Non-fast-forward）的出现原因在于：git仓库中已经有一部分代码，所以它不允许你直接把你的代码覆盖上去。于是你有2个选择方式：
 
 </ul>
-</ul>
+</ol>
 	 
-<p>
-	1，强推，即利用强覆盖方式用你本地的代码替代git仓库内的内容
-</p>
-	
-<p>
-		git push -f
-</p>
+<ol>
+<li>
+强推，即利用强覆盖方式用你本地的代码替代git仓库内的内容 git push -f
 
-<p>
-	2，先把git的东西fetch到你本地然后merge后再push
-</p>
+<li>
+先把git的东西fetch到你本地然后merge后再push 
 
-<p>
-		git fetch
-</p>
-
-<p>
-		git merge
-</p>
+</ol>
+<blockquote>
+git fetch
+</blockquote>
+<blockquote>
+git merge
+</blockquote>
 </div>
 	<div id="footer"></div>
 </div>
