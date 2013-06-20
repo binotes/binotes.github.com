@@ -51,7 +51,8 @@ a {
 }
 
 a:hover {
-	color: #F6B300;
+	/*color: #F6B300;*/
+	color: #FFFFFF;
 	background-color:#5D7144;
 	text-decoration: underline;
 }
@@ -206,12 +207,12 @@ a:hover {
 
 .button
 {
-	padding: 10px 25px;
+	padding: 5px 5px;
 	background: #6F8651;
 	border-radius: 5px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 11px;
 	color: #FFFFFF;
 }
 
