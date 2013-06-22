@@ -14,6 +14,14 @@ body {
 	color: #3B3B3B;
 }
 
+hr {
+	border-bottom:3px dashed #efefef; 
+	border-left:none; 
+	border-right:none; 
+	border-top:none; 
+	height:0px
+}
+
 h1, h2, h3 {
 	margin: 0px;
 	padding: 0px;
@@ -26,6 +34,8 @@ h1, h2, h3 {
 
 h1 {
 	font-size: 2em;
+/*	border-bottom:3px dashed #111;*/
+	border-bottom: 1px dashed #efefef;
 }
 
 h2 {
@@ -56,6 +66,7 @@ a:hover {
 	background-color:#5D7144;
 	text-decoration: underline;
 }
+
 
 /* Header */
 
